@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    position: relative;
+
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.title{
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.container{
+    padding: 20px;
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+.img-container{
+    max-width: 600px;
+    margin: 15px auto;
+}
+
+.img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    aspect-ratio: 1/0.7;
+    background-position: center center;
+    width: 100%;
+}
+
+.loader{
+    background-size: contain;
+    aspect-ratio: 1/0.1;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.hidden{
+    display: none;
+}
